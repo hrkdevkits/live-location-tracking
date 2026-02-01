@@ -5,6 +5,8 @@
 ![Language](https://img.shields.io/badge/language-Kotlin-blue)
 [![License](https://img.shields.io/badge/license-MIT-green)](./LICENSE)
 
+![Live Location Tracking SDK](assets/tracking-poster.png)
+
 A **lightweight Android Live Location Tracking SDK** designed for **real-time foreground and background location updates** with **customizable intervals**, **offline storage**, and **optional data synchronization** — without relying on external APIs.
 
 🔗 **Repository:** https://github.com/hrkdevkits/live-location-tracking
