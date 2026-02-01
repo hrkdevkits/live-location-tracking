@@ -38,7 +38,7 @@ dependencyResolutionManagement {
 
 ```kotlin
 dependencies {
-    implementation("com.github.hrkdevkits:live-location-tracking:1.0.1")
+    implementation("com.github.hrkdevkits:live-location-tracking:1.0.0")
 }
 ```
 
@@ -165,8 +165,8 @@ git push -u origin main
 ## Publishing to JitPack
 
 1. Push code to GitHub
-2. Create release tag: `git tag -a v1.0.1 -m "Release 1.0.1"`
-3. Push tag: `git push origin v1.0.1`
+2. Create release tag: `git tag -a v1.0.0 -m "Release 1.0.0"`
+3. Push tag: `git push origin v1.0.0`
 4. JitPack auto-builds at: https://jitpack.io/#hrkdevkits/live-location-tracking
 
 ---
