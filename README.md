@@ -89,13 +89,6 @@ dependencies {
 
 **3. Sync Gradle**
 
-### Option 2: Local Module
-
-1. Clone the repository
-2. Copy the `locationtrack` module into your project
-3. In `settings.gradle.kts` add: `include(":locationtrack")`
-4. In your app's `build.gradle.kts` add: `implementation(project(":locationtrack"))`
-
 ---
 
 ## Quick Start
@@ -191,28 +184,6 @@ LiveTrackingSDK.syncData(this, time = 60, object : SyncCallback {
 - **Target SDK**: Android 14 (API 36)
 - **Kotlin**: 2.0+
 - **Gradle**: 8.13+
-
----
-
-## Pushing to GitHub
-
-```bash
-git remote add origin https://github.com/hrkdevkits/live-location-tracking.git
-# Or update existing remote:
-git remote set-url origin https://github.com/hrkdevkits/live-location-tracking.git
-
-git add .
-git commit -m "Initial commit: Live Location Tracking SDK"
-git branch -M main
-git push -u origin main
-```
-
-## Publishing to JitPack
-
-1. Push code to GitHub
-2. Create release tag: `git tag -a v1.0.0 -m "Release 1.0.0"`
-3. Push tag: `git push origin v1.0.0`
-4. JitPack auto-builds at: https://jitpack.io/#hrkdevkits/live-location-tracking
 
 ---
 
